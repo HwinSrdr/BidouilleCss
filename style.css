@@ -1,0 +1,34 @@
+h1 {
+nom : valeur;
+color: red;
+font-size:25px;
+}
+
+/*pour les commentaire */
+.bleu {
+    color: blue;
+}
+    
+
+.fontSize {
+    font-size:30px;
+
+}
+
+.bgPink {
+    background-color: pink;
+}
+
+.bouton {
+    background-color: orange; /*Je met un fond orange*/
+    font-size: 30px; /*taille de la police*/
+    color: white; /*la couleur du texte*/
+    text-decoration: none; /*retirer la ligne, retirer la décoration du texte*/
+    border-radius: 10px; /*Je crée un arrondi de 10px dans les angles*/
+    padding: 10px 90px; /*Marge intérieur du bloc*/
+    border: 4px red solid; /*Gestion de la bordure : epaisseur, type de la ligne et couleur de la ligne*/
+}
+
+.textCenter {
+    text-align: center;
+}
