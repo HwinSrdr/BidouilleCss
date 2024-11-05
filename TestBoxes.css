@@ -26,7 +26,7 @@ font-weight: 900;
     font-size: 20px;
   }
 
-section {
+.forme {
 width: 50%;
 margin: auto; /*ajustement de la marge autour de la section*/
 height: 50vh; /* Taille à prendre en compte en pourcentage à partir de la taille de la page*/
@@ -131,11 +131,11 @@ border-radius: 8px;
     display: block;
     background-color: #1398A0 ;
     border-radius: 8px;
-    padding: 10px;
+    padding: 16px 32px;
     color: white;
     text-decoration: none;
     font-family: "Inter", sans-serif;
-    margin-top: 50px;
+    margin-top: 10px;
     width: fit-content;
 }
 
@@ -160,7 +160,14 @@ article:hover {
     box-shadow: 4px 4px 12px #000025;
     border-radius: 16px;
     padding: 8px;
-    font-family:'Inter','sans-serif'
+    font-family:'Inter','sans-serif';
+    margin-bottom: 32px;
+}
+
+.card:hover {
+    box-shadow: 15px 10px 40px black;
+    padding: 13px;
+    transition: 0.3s;
 }
 
 .card img {
@@ -170,4 +177,14 @@ article:hover {
 
 .card .btn {
     margin-bottom:0;
+    margin-top:12px;
+}
+
+.flex {
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.position {
+    justify-content: space-evenly;
 }
